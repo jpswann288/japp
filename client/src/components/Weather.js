@@ -44,13 +44,10 @@ const Card = () => {
 
   return (
     <>
-      <h1>New York</h1>
-      <Grid
-        container
-        spacing={2}
-        justifyContent="center"
-        sx={{ flexWrap: "wrap", width: "100%" }}
-      >
+      <div>
+        <strong>New York</strong> - {data.weather[0].time}
+      </div>
+      <Grid container spacing={2} sx={{ flexWrap: "wrap", width: "100%" }}>
         {data.weather.length
           ? data.weather.map((obj, index) => (
               <Grid

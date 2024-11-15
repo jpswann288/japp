@@ -1,0 +1,32 @@
+# Node.js / React Specific
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+build/
+dist/
+*.env
+*.env.local
+*.env.development
+*.env.production
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Dependency directories
+.bower_components/
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
